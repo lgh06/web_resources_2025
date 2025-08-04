@@ -7,22 +7,6 @@ import { rm } from 'fs/promises';
 
 let configs = [
   {
-    src: './original_fonts/LXGWWenKaiGB-Regular.ttf',
-    outDir: './dist/LXGWWenKaiGB_Regular',
-    chunkSize: 400 * 1024,
-  },
-  {
-    src: './original_fonts/LXGWWenKaiGB-Regular.ttf',
-    outDir: './dist/LXGWWenKaiGB_Regular',
-    chunkSize: 200 * 1024,
-  },
-  {
-    src: './original_fonts/LXGWWenKaiGB-Regular.ttf',
-    outDir: './dist/LXGWWenKaiGB_Regular',
-    chunkSize: 100 * 1024,
-  },
-
-   {
     src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
     outDir: './dist/LXGWWenKaiMonoGB_Regular',
     chunkSize: 400 * 1024,
@@ -33,10 +17,20 @@ let configs = [
     chunkSize: 200 * 1024,
   },
   {
-    src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
-    outDir: './dist/LXGWWenKaiMonoGB_Regular',
-    chunkSize: 100 * 1024,
-  }, 
+    src: './original_fonts/fusion-pixel-12px-monospaced-zh_hans.ttf',
+    outDir: './dist/fusion_pixel_12px_monospaced_zh_hans',
+    chunkSize: 300 * 1024,
+  },
+  {
+    src: './original_fonts/京華老宋体v2.002.ttf',
+    outDir: './dist/KingHwa_OldSong',
+    chunkSize: 400 * 1024,
+  },
+  {
+    src: './original_fonts/京華老宋体v2.002.ttf',
+    outDir: './dist/KingHwa_OldSong',
+    chunkSize: 300 * 1024,
+  },
 ]
 
 async function exec(config) {
