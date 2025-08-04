@@ -21,6 +21,22 @@ let configs = [
     outDir: './dist/LXGWWenKaiGB_Regular',
     chunkSize: 100 * 1024,
   },
+
+   {
+    src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
+    outDir: './dist/LXGWWenKaiMonoGB_Regular',
+    chunkSize: 400 * 1024,
+  },
+  {
+    src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
+    outDir: './dist/LXGWWenKaiMonoGB_Regular',
+    chunkSize: 200 * 1024,
+  },
+  {
+    src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
+    outDir: './dist/LXGWWenKaiMonoGB_Regular',
+    chunkSize: 100 * 1024,
+  }, 
 ]
 
 async function exec(config) {
