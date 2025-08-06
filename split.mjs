@@ -9,27 +9,17 @@ let configs = [
   {
     src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
     outDir: './dist/LXGWWenKaiMonoGB_Regular',
-    chunkSize: 400 * 1024,
-  },
-  {
-    src: './original_fonts/LXGWWenKaiMonoGB-Regular.ttf',
-    outDir: './dist/LXGWWenKaiMonoGB_Regular',
-    chunkSize: 200 * 1024,
+    chunkSize: 100 * 1024,
   },
   {
     src: './original_fonts/fusion-pixel-12px-monospaced-zh_hans.ttf',
     outDir: './dist/fusion_pixel_12px_monospaced_zh_hans',
-    chunkSize: 300 * 1024,
+    chunkSize: 200 * 1024,
   },
   {
     src: './original_fonts/京華老宋体v2.002.ttf',
     outDir: './dist/KingHwa_OldSong',
-    chunkSize: 400 * 1024,
-  },
-  {
-    src: './original_fonts/京華老宋体v2.002.ttf',
-    outDir: './dist/KingHwa_OldSong',
-    chunkSize: 300 * 1024,
+    chunkSize: 150 * 1024,
   },
 ]
 
